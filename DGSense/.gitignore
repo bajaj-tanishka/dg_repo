@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+
+# PyTorch checkpoints and raw datasets (large files)
+*.pth
+*.pt.tar
+*.ckpt
+backend/artifacts/model.pt
+backend/artifacts/DGSense_model_artifacts.zip
+data/
+raw_data/
+datasets/
+*.mp4
+*.avi
+*.mov
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.production
+
+# SQLite persistence database (created at runtime)
+backend/dgsense.db
+backend/dgsense.db-*

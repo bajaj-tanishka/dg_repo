@@ -1,0 +1,38 @@
+{
+  "model_name": "DGSenseTemporalGRU",
+  "model_version": "3.1.0",
+  "architecture": {
+    "type": "BiGRUWithAttention",
+    "input_dim": 288,
+    "feature_dim": 144,
+    "use_delta": true,
+    "use_attention": true,
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "bidirectional": true,
+    "dropout": 0.3,
+    "num_classes": 14
+  },
+  "supported_labels": [
+    "RAIN",
+    "SUN",
+    "CLOUD",
+    "SNOW",
+    "STORM",
+    "WIND",
+    "WEATHER",
+    "BLOW",
+    "COME",
+    "NORTH",
+    "SOUTH",
+    "EAST",
+    "TOMORROW",
+    "TODAY"
+  ],
+  "feature_schema_version": "dgsense-v1",
+  "sequence_length": 30,
+  "default_min_confidence": 0.65,
+  "training_data": "RWTH-PHOENIX-Weather 2014T (HuggingFace streaming)",
+  "normalization": "Wrist-origin hand-scale normalization and optional first-difference features",
+  "created_at": "2026-10-27T06:18:18.336978"
+}

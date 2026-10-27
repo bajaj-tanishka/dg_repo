@@ -1,0 +1,141 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1793054182.676486    3476 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793054182.700148   26800 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793054187.018445   12340 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[DGSense V3.1] torch 2.14.1+cpu | device: cpu
+Model classes (7): ['BLOW', 'COME', 'NORTH', 'SOUTH', 'EAST', 'TOMORROW', 'TODAY']
+cap/class=100 epochs=60 delta=True attention=True smoke=False
+  train: 7096 sentences
+  dev: 519 sentences
+  test: 642 sentences
+Total sentences: 8257 | signers: 9
+
+Gloss frequencies for the selected classes:
+  WEHEN      -> 656 occurrences
+  KOMMEN     -> 1483 occurrences
+  NORD       -> 1398 occurrences
+  SUED       -> 949 occurrences
+  OST        -> 603 occurrences
+  MORGEN     -> 1494 occurrences
+  HEUTE      -> 835 occurrences
+All target glosses present with abundant coverage.
+  train: 7096 sentences indexed
+  dev: 519 sentences indexed
+  test: 642 sentences indexed
+Corpus sentences without frames: 0
+Selected sentences: 540 | clips planned: 700
+  BLOW       planned  100 (cached 0)
+  COME       planned  100 (cached 0)
+  NORTH      planned  100 (cached 0)
+  SOUTH      planned  100 (cached 0)
+  EAST       planned  100 (cached 0)
+  TOMORROW   planned  100 (cached 0)
+  TODAY      planned  100 (cached 0)
+worklist ok: 540
+streaming reader + motion trim ready
+MediaPipe HandLandmarker ready
+  1/540 sent | kept 0 | dropped {'no_hand': 0, 'static': 0, 'short': 1, 'kept': 0} | 7 MB | 0.21 sent/s
+  11/540 sent | kept 10 | dropped {'no_hand': 0, 'static': 0, 'short': 5, 'kept': 10} | 58 MB | 0.23 sent/s
+  21/540 sent | kept 17 | dropped {'no_hand': 0, 'static': 0, 'short': 8, 'kept': 17} | 107 MB | 0.24 sent/s
+  31/540 sent | kept 23 | dropped {'no_hand': 1, 'static': 0, 'short': 12, 'kept': 23} | 147 MB | 0.25 sent/s
+  41/540 sent | kept 33 | dropped {'no_hand': 2, 'static': 0, 'short': 17, 'kept': 33} | 195 MB | 0.24 sent/s
+  51/540 sent | kept 36 | dropped {'no_hand': 3, 'static': 0, 'short': 24, 'kept': 36} | 240 MB | 0.25 sent/s
+  61/540 sent | kept 44 | dropped {'no_hand': 3, 'static': 0, 'short': 30, 'kept': 44} | 287 MB | 0.25 sent/s
+  71/540 sent | kept 55 | dropped {'no_hand': 4, 'static': 0, 'short': 32, 'kept': 55} | 339 MB | 0.25 sent/s
+  81/540 sent | kept 61 | dropped {'no_hand': 4, 'static': 0, 'short': 36, 'kept': 61} | 386 MB | 0.25 sent/s
+  91/540 sent | kept 66 | dropped {'no_hand': 7, 'static': 0, 'short': 40, 'kept': 66} | 427 MB | 0.25 sent/s
+  101/540 sent | kept 70 | dropped {'no_hand': 8, 'static': 0, 'short': 46, 'kept': 70} | 472 MB | 0.25 sent/s
+  111/540 sent | kept 77 | dropped {'no_hand': 8, 'static': 0, 'short': 53, 'kept': 77} | 531 MB | 0.25 sent/s
+  121/540 sent | kept 83 | dropped {'no_hand': 8, 'static': 0, 'short': 57, 'kept': 83} | 576 MB | 0.26 sent/s
+  131/540 sent | kept 89 | dropped {'no_hand': 9, 'static': 0, 'short': 61, 'kept': 89} | 630 MB | 0.26 sent/s
+  141/540 sent | kept 94 | dropped {'no_hand': 10, 'static': 0, 'short': 67, 'kept': 94} | 680 MB | 0.26 sent/s
+  151/540 sent | kept 105 | dropped {'no_hand': 12, 'static': 0, 'short': 71, 'kept': 105} | 735 MB | 0.25 sent/s
+  161/540 sent | kept 115 | dropped {'no_hand': 12, 'static': 0, 'short': 77, 'kept': 115} | 787 MB | 0.24 sent/s
+  171/540 sent | kept 122 | dropped {'no_hand': 12, 'static': 0, 'short': 82, 'kept': 122} | 839 MB | 0.23 sent/s
+  181/540 sent | kept 126 | dropped {'no_hand': 15, 'static': 0, 'short': 85, 'kept': 126} | 882 MB | 0.23 sent/s
+  191/540 sent | kept 133 | dropped {'no_hand': 15, 'static': 0, 'short': 90, 'kept': 133} | 934 MB | 0.22 sent/s
+  201/540 sent | kept 145 | dropped {'no_hand': 15, 'static': 0, 'short': 93, 'kept': 145} | 991 MB | 0.22 sent/s
+  211/540 sent | kept 153 | dropped {'no_hand': 15, 'static': 0, 'short': 98, 'kept': 153} | 1036 MB | 0.22 sent/s
+  221/540 sent | kept 159 | dropped {'no_hand': 16, 'static': 0, 'short': 102, 'kept': 159} | 1084 MB | 0.21 sent/s
+  231/540 sent | kept 169 | dropped {'no_hand': 16, 'static': 0, 'short': 108, 'kept': 169} | 1135 MB | 0.21 sent/s
+  241/540 sent | kept 178 | dropped {'no_hand': 16, 'static': 0, 'short': 111, 'kept': 178} | 1189 MB | 0.21 sent/s
+  251/540 sent | kept 182 | dropped {'no_hand': 17, 'static': 0, 'short': 119, 'kept': 182} | 1236 MB | 0.21 sent/s
+  261/540 sent | kept 189 | dropped {'no_hand': 18, 'static': 0, 'short': 123, 'kept': 189} | 1291 MB | 0.21 sent/s
+  271/540 sent | kept 199 | dropped {'no_hand': 18, 'static': 0, 'short': 127, 'kept': 199} | 1342 MB | 0.21 sent/s
+  281/540 sent | kept 208 | dropped {'no_hand': 18, 'static': 0, 'short': 129, 'kept': 208} | 1388 MB | 0.21 sent/s
+  291/540 sent | kept 220 | dropped {'no_hand': 18, 'static': 0, 'short': 133, 'kept': 220} | 1437 MB | 0.21 sent/s
+  301/540 sent | kept 225 | dropped {'no_hand': 19, 'static': 0, 'short': 138, 'kept': 225} | 1493 MB | 0.21 sent/s
+  311/540 sent | kept 231 | dropped {'no_hand': 20, 'static': 0, 'short': 146, 'kept': 231} | 1561 MB | 0.22 sent/s
+  321/540 sent | kept 243 | dropped {'no_hand': 20, 'static': 0, 'short': 150, 'kept': 243} | 1626 MB | 0.22 sent/s
+  331/540 sent | kept 249 | dropped {'no_hand': 22, 'static': 0, 'short': 159, 'kept': 249} | 1680 MB | 0.22 sent/s
+  341/540 sent | kept 257 | dropped {'no_hand': 22, 'static': 0, 'short': 165, 'kept': 257} | 1731 MB | 0.22 sent/s
+  351/540 sent | kept 263 | dropped {'no_hand': 22, 'static': 0, 'short': 172, 'kept': 263} | 1777 MB | 0.22 sent/s
+  361/540 sent | kept 268 | dropped {'no_hand': 24, 'static': 0, 'short': 176, 'kept': 268} | 1823 MB | 0.22 sent/s
+  371/540 sent | kept 275 | dropped {'no_hand': 26, 'static': 0, 'short': 179, 'kept': 275} | 1882 MB | 0.22 sent/s
+  381/540 sent | kept 284 | dropped {'no_hand': 26, 'static': 0, 'short': 185, 'kept': 284} | 1940 MB | 0.22 sent/s
+  391/540 sent | kept 292 | dropped {'no_hand': 26, 'static': 0, 'short': 188, 'kept': 292} | 1986 MB | 0.22 sent/s
+  401/540 sent | kept 301 | dropped {'no_hand': 26, 'static': 0, 'short': 193, 'kept': 301} | 2035 MB | 0.22 sent/s
+  411/540 sent | kept 307 | dropped {'no_hand': 26, 'static': 0, 'short': 198, 'kept': 307} | 2090 MB | 0.23 sent/s
+  421/540 sent | kept 310 | dropped {'no_hand': 28, 'static': 0, 'short': 207, 'kept': 310} | 2145 MB | 0.23 sent/s
+  431/540 sent | kept 317 | dropped {'no_hand': 28, 'static': 0, 'short': 213, 'kept': 317} | 2201 MB | 0.23 sent/s
+  441/540 sent | kept 323 | dropped {'no_hand': 29, 'static': 0, 'short': 220, 'kept': 323} | 2249 MB | 0.23 sent/s
+  451/540 sent | kept 335 | dropped {'no_hand': 29, 'static': 0, 'short': 222, 'kept': 335} | 2310 MB | 0.23 sent/s
+  461/540 sent | kept 343 | dropped {'no_hand': 30, 'static': 0, 'short': 225, 'kept': 343} | 2358 MB | 0.23 sent/s
+  471/540 sent | kept 352 | dropped {'no_hand': 31, 'static': 0, 'short': 232, 'kept': 352} | 2415 MB | 0.23 sent/s
+  481/540 sent | kept 355 | dropped {'no_hand': 34, 'static': 0, 'short': 239, 'kept': 355} | 2460 MB | 0.23 sent/s
+  491/540 sent | kept 361 | dropped {'no_hand': 34, 'static': 0, 'short': 245, 'kept': 361} | 2505 MB | 0.23 sent/s
+  501/540 sent | kept 365 | dropped {'no_hand': 37, 'static': 0, 'short': 250, 'kept': 365} | 2549 MB | 0.23 sent/s
+  511/540 sent | kept 374 | dropped {'no_hand': 37, 'static': 0, 'short': 253, 'kept': 374} | 2595 MB | 0.24 sent/s
+  521/540 sent | kept 377 | dropped {'no_hand': 38, 'static': 0, 'short': 262, 'kept': 377} | 2647 MB | 0.24 sent/s
+  531/540 sent | kept 387 | dropped {'no_hand': 39, 'static': 0, 'short': 265, 'kept': 387} | 2687 MB | 0.24 sent/s
+
+Extraction done: 394 clips total | 2728 MB streamed | 2264s | last-stats {'no_hand': 41, 'static': 0, 'short': 265, 'kept': 394}
+  BLOW       73
+  COME       73
+  NORTH      47
+  SOUTH      58
+  EAST       38
+  TOMORROW   47
+  TODAY      58
+asserts ok: (394, 30, 144)
+Signer-Independent (Train: ['Signer01', 'Signer02', 'Signer03', 'Signer05', 'Signer06', 'Signer08', 'Signer09'], Val: ['Signer07'], Test: ['Signer04'])
+Train=288 Val=44 Test=62
+model input dim: 288
+Trainable parameters: 635,144
+train counts: {'BLOW': 49, 'COME': 62, 'NORTH': 36, 'SOUTH': 36, 'EAST': 20, 'TOMORROW': 39, 'TODAY': 46}
+class weights: {'BLOW': 0.75, 'COME': 0.6000000238418579, 'NORTH': 1.0299999713897705, 'SOUTH': 1.0299999713897705, 'EAST': 1.850000023841858, 'TOMORROW': 0.949999988079071, 'TODAY': 0.800000011920929}D:\kj somaiya\DGSenseDemo\DGSense\notebooks\_notebook_as_script.py:655: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Epoch 01/60  train 1.9845  val 1.8942  val_acc 29.5%
+Epoch 05/60  train 1.5533  val 1.8283  val_acc 29.5%
+Epoch 10/60  train 1.2897  val 1.8955  val_acc 38.6%
+Epoch 15/60  train 1.1063  val 2.0172  val_acc 45.5%
+Epoch 20/60  train 0.9886  val 2.0545  val_acc 38.6%
+[Early stop] epoch 20
+Loaded best checkpoint (val_loss=1.7827)
+Test accuracy: 40.32% | macro F1: 0.3468 | chance 14.3%
+              precision    recall  f1-score   support
+
+        BLOW       0.45      0.90      0.60        10
+        COME       0.29      0.33      0.31         6
+       NORTH       0.00      0.00      0.00         7
+       SOUTH       0.40      0.62      0.48        13
+        EAST       0.00      0.00      0.00        13
+    TOMORROW       0.67      0.80      0.73         5
+       TODAY       0.40      0.25      0.31         8
+
+    accuracy                           0.40        62
+   macro avg       0.31      0.41      0.35        62
+weighted avg       0.29      0.40      0.33        62
+
+done: 0.4032
+Packaged DGSense_model_artifacts.zip -> extract into backend/artifacts/ to activate
+Local run: DGSense_model_artifacts.zip is in the current folder.
+Exception ignored in: <function HandLandmarker.__del__ at 0x0000019D3A988B80>
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\vision\hand_landmarker.py", line 612, in __del__
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\vision\hand_landmarker.py", line 588, in close
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\core\serial_dispatcher.py", line 74, in shutdown_aware_handler
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\core\mediapipe_c_utils.py", line 126, in dispatcher_wrapper
+TypeError: 'NoneType' object is not callable

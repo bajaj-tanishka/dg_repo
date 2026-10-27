@@ -1,0 +1,332 @@
+{
+  "clips": [
+    {
+      "sign_id": "DGS-PHRASE-001",
+      "canonical_meaning": "HELLO",
+      "german_phrase": "Hallo",
+      "english_meaning": "Hello",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://www.sign-lang.uni-hamburg.de/dgs-korpus/public-dgs-corpus.html",
+      "local_clip_path": null,
+      "sequence_order": [
+        "HALLO"
+      ],
+      "verification_notes": "Gloss sequence 'HALLO' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-002",
+      "canonical_meaning": "GOOD_MORNING",
+      "german_phrase": "Guten Morgen",
+      "english_meaning": "Good morning",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://www.sign-lang.uni-hamburg.de/dgs-korpus/public-dgs-corpus.html",
+      "local_clip_path": null,
+      "sequence_order": [
+        "GUT",
+        "MORGEN"
+      ],
+      "verification_notes": "Gloss sequence 'GUT+MORGEN' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-003",
+      "canonical_meaning": "GOOD_DAY",
+      "german_phrase": "Guten Tag",
+      "english_meaning": "Good day",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://www.sign-lang.uni-hamburg.de/dgs-korpus/public-dgs-corpus.html",
+      "local_clip_path": null,
+      "sequence_order": [
+        "GUT",
+        "TAG"
+      ],
+      "verification_notes": "Gloss sequence 'GUT+TAG' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-004",
+      "canonical_meaning": "GOOD_EVENING",
+      "german_phrase": "Guten Abend",
+      "english_meaning": "Good evening",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://www.sign-lang.uni-hamburg.de/dgs-korpus/public-dgs-corpus.html",
+      "local_clip_path": null,
+      "sequence_order": [
+        "GUT",
+        "ABEND"
+      ],
+      "verification_notes": "Gloss sequence 'GUT+ABEND' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-005",
+      "canonical_meaning": "BYE",
+      "german_phrase": "Tschüss",
+      "english_meaning": "Bye",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "TSCHÜSS"
+      ],
+      "verification_notes": "Gloss sequence 'TSCHÜSS' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-006",
+      "canonical_meaning": "GOODBYE",
+      "german_phrase": "Auf Wiedersehen",
+      "english_meaning": "Goodbye",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "AUF-WIEDERSEHEN"
+      ],
+      "verification_notes": "Gloss sequence 'AUF-WIEDERSEHEN' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-007",
+      "canonical_meaning": "THANK_YOU",
+      "german_phrase": "Danke",
+      "english_meaning": "Thank you",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "DANKE"
+      ],
+      "verification_notes": "Gloss sequence 'DANKE' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-008",
+      "canonical_meaning": "THANK_YOU_VERY_MUCH",
+      "german_phrase": "Vielen Dank",
+      "english_meaning": "Thank you very much",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "DANKE",
+        "VIEL"
+      ],
+      "verification_notes": "Gloss sequence 'DANKE+VIEL' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-009",
+      "canonical_meaning": "PLEASE",
+      "german_phrase": "Bitte",
+      "english_meaning": "Please",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "BITTE"
+      ],
+      "verification_notes": "Gloss sequence 'BITTE' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-010",
+      "canonical_meaning": "SORRY",
+      "german_phrase": "Entschuldigung",
+      "english_meaning": "Sorry",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "ENTSCHULDIGUNG"
+      ],
+      "verification_notes": "Gloss sequence 'ENTSCHULDIGUNG' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-011",
+      "canonical_meaning": "YES",
+      "german_phrase": "Ja",
+      "english_meaning": "Yes",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "JA"
+      ],
+      "verification_notes": "Gloss sequence 'JA' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-012",
+      "canonical_meaning": "NO",
+      "german_phrase": "Nein",
+      "english_meaning": "No",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "NEIN"
+      ],
+      "verification_notes": "Gloss sequence 'NEIN' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-013",
+      "canonical_meaning": "HOW_ARE_YOU",
+      "german_phrase": "Wie geht es dir?",
+      "english_meaning": "How are you?",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "WIE-GEHT",
+        "DIR"
+      ],
+      "verification_notes": "Gloss sequence 'WIE-GEHT+DIR' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-014",
+      "canonical_meaning": "NOT_UNDERSTAND",
+      "german_phrase": "Ich verstehe nicht",
+      "english_meaning": "I don't understand",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "VERSTEHEN",
+        "NICHT"
+      ],
+      "verification_notes": "Gloss sequence 'VERSTEHEN+NICHT' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-015",
+      "canonical_meaning": "CAN_HELP",
+      "german_phrase": "Kannst du mir helfen?",
+      "english_meaning": "Can you help me?",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "DU",
+        "HELFEN-MIR",
+        "KÖNNEN"
+      ],
+      "verification_notes": "Gloss sequence 'DU+HELFEN-MIR+KÖNNEN' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-016",
+      "canonical_meaning": "HELP",
+      "german_phrase": "Hilfe",
+      "english_meaning": "Help",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "HILFE"
+      ],
+      "verification_notes": "Gloss sequence 'HILFE' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-017",
+      "canonical_meaning": "STOP",
+      "german_phrase": "Stopp",
+      "english_meaning": "Stop",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "STOPP"
+      ],
+      "verification_notes": "Gloss sequence 'STOPP' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-018",
+      "canonical_meaning": "COME_HERE",
+      "german_phrase": "Komm her",
+      "english_meaning": "Come here",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "KOMMEN",
+        "HIER"
+      ],
+      "verification_notes": "Gloss sequence 'KOMMEN+HIER' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-019",
+      "canonical_meaning": "LETS_GO",
+      "german_phrase": "Lass uns gehen",
+      "english_meaning": "Let's go",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "WIR",
+        "GEHEN"
+      ],
+      "verification_notes": "Gloss sequence 'WIR+GEHEN' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-020",
+      "canonical_meaning": "WAIT_PLEASE",
+      "german_phrase": "Warte bitte",
+      "english_meaning": "Please wait",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "WARTEN",
+        "BITTE"
+      ],
+      "verification_notes": "Gloss sequence 'WARTEN+BITTE' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    },
+    {
+      "sign_id": "DGS-PHRASE-021",
+      "canonical_meaning": "NEED_HELP",
+      "german_phrase": "Ich brauche Hilfe",
+      "english_meaning": "I need help",
+      "source_attribution": "MEINE DGS (ling.meine-dgs.de) & Public DGS Corpus (IDGS Hamburg)",
+      "licence_status": "Educational / Research - see portal terms (CC BY-NC-SA 4.0 / Open Access research)",
+      "video_url": "https://ling.meine-dgs.de/",
+      "local_clip_path": null,
+      "sequence_order": [
+        "ICH",
+        "BRAUCHEN",
+        "HILFE"
+      ],
+      "verification_notes": "Gloss sequence 'ICH+BRAUCHEN+HILFE' verified against the referenced DGS research portals. The link opens the portal (no per-clip video is bundled with DGSense); search the portal for the German phrase to watch a signer produce it.",
+      "is_verified": true
+    }
+  ]
+}

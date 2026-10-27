@@ -1,0 +1,31 @@
+{
+  "model_name": "DGSenseTemporalGRU",
+  "version": "3.1.0",
+  "schema_version": "dgsense-v1",
+  "training_source": "RWTH-PHOENIX-Weather-2014T via HuggingFace streaming (real DGS)",
+  "split_strategy": "Signer-Independent (Train: ['Signer01', 'Signer02', 'Signer03', 'Signer05', 'Signer06', 'Signer08', 'Signer09'], Val: ['Signer07'], Test: ['Signer04'])",
+  "test_accuracy": 0.4032,
+  "macro_f1": 0.3468,
+  "epochs_trained": 20,
+  "best_val_loss": 1.7827,
+  "supported_classes": [
+    "BLOW",
+    "COME",
+    "NORTH",
+    "SOUTH",
+    "EAST",
+    "TOMORROW",
+    "TODAY"
+  ],
+  "missing_classes": [],
+  "clips_total": 394,
+  "clips_train": 288,
+  "clips_val": 44,
+  "clips_test": 62,
+  "quality_gates": {
+    "min_hand_frame_fraction": 0.5,
+    "min_segment_frames": 10,
+    "motion_refined": true
+  },
+  "timestamp": "2026-10-27T04:44:26.278253"
+}

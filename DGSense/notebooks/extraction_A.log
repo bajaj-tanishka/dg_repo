@@ -1,0 +1,125 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1793054182.676798   15128 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793054182.699753   15128 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793054186.878588   30592 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[DGSense V3.1] torch 2.14.1+cpu | device: cpu
+Model classes (7): ['RAIN', 'SUN', 'CLOUD', 'SNOW', 'STORM', 'WIND', 'WEATHER']
+cap/class=100 epochs=60 delta=True attention=True smoke=False
+  train: 7096 sentences
+  dev: 519 sentences
+  test: 642 sentences
+Total sentences: 8257 | signers: 9
+
+Gloss frequencies for the selected classes:
+  REGEN      -> 2434 occurrences
+  SONNE      -> 1294 occurrences
+  WOLKE      -> 1268 occurrences
+  SCHNEE     -> 888 occurrences
+  GEWITTER   -> 779 occurrences
+  WIND       -> 742 occurrences
+  WETTER     -> 801 occurrences
+All target glosses present with abundant coverage.
+  train: 7096 sentences indexed
+  dev: 519 sentences indexed
+  test: 642 sentences indexed
+Corpus sentences without frames: 0
+Cache: 272 clips, 248 (sentence,class) pairs done
+  cached RAIN: 23
+  cached SUN: 10
+  cached CLOUD: 15
+  cached SNOW: 22
+  cached STORM: 36
+  cached WIND: 16
+  cached WEATHER: 23
+Selected sentences: 397 | clips planned: 555
+  RAIN       planned   77 (cached 23)
+  SUN        planned   90 (cached 10)
+  CLOUD      planned   85 (cached 15)
+  SNOW       planned   78 (cached 22)
+  STORM      planned   64 (cached 36)
+  WIND       planned   84 (cached 16)
+  WEATHER    planned   77 (cached 23)
+worklist ok: 397
+streaming reader + motion trim ready
+MediaPipe HandLandmarker ready
+  1/397 sent | kept 0 | dropped {'no_hand': 0, 'static': 0, 'short': 1, 'kept': 0} | 6 MB | 0.21 sent/s
+  11/397 sent | kept 3 | dropped {'no_hand': 1, 'static': 0, 'short': 9, 'kept': 3} | 55 MB | 0.25 sent/s
+  21/397 sent | kept 9 | dropped {'no_hand': 3, 'static': 0, 'short': 14, 'kept': 9} | 100 MB | 0.25 sent/s
+  31/397 sent | kept 17 | dropped {'no_hand': 3, 'static': 0, 'short': 19, 'kept': 17} | 158 MB | 0.25 sent/s
+  41/397 sent | kept 22 | dropped {'no_hand': 3, 'static': 0, 'short': 26, 'kept': 22} | 214 MB | 0.25 sent/s
+  51/397 sent | kept 31 | dropped {'no_hand': 4, 'static': 0, 'short': 32, 'kept': 31} | 270 MB | 0.25 sent/s
+  61/397 sent | kept 39 | dropped {'no_hand': 4, 'static': 0, 'short': 38, 'kept': 39} | 324 MB | 0.25 sent/s
+  71/397 sent | kept 47 | dropped {'no_hand': 4, 'static': 0, 'short': 44, 'kept': 47} | 376 MB | 0.25 sent/s
+  81/397 sent | kept 63 | dropped {'no_hand': 4, 'static': 0, 'short': 48, 'kept': 63} | 441 MB | 0.24 sent/s
+  91/397 sent | kept 70 | dropped {'no_hand': 4, 'static': 0, 'short': 51, 'kept': 70} | 482 MB | 0.24 sent/s
+  101/397 sent | kept 77 | dropped {'no_hand': 5, 'static': 0, 'short': 58, 'kept': 77} | 531 MB | 0.24 sent/s
+  111/397 sent | kept 86 | dropped {'no_hand': 6, 'static': 0, 'short': 61, 'kept': 86} | 598 MB | 0.24 sent/s
+  121/397 sent | kept 98 | dropped {'no_hand': 7, 'static': 0, 'short': 63, 'kept': 98} | 646 MB | 0.24 sent/s
+  131/397 sent | kept 104 | dropped {'no_hand': 7, 'static': 0, 'short': 69, 'kept': 104} | 690 MB | 0.25 sent/s
+  141/397 sent | kept 114 | dropped {'no_hand': 7, 'static': 0, 'short': 73, 'kept': 114} | 744 MB | 0.25 sent/s
+  151/397 sent | kept 120 | dropped {'no_hand': 8, 'static': 0, 'short': 76, 'kept': 120} | 785 MB | 0.24 sent/s
+  161/397 sent | kept 126 | dropped {'no_hand': 8, 'static': 0, 'short': 83, 'kept': 126} | 836 MB | 0.23 sent/s
+  171/397 sent | kept 141 | dropped {'no_hand': 8, 'static': 0, 'short': 87, 'kept': 141} | 904 MB | 0.23 sent/s
+  181/397 sent | kept 148 | dropped {'no_hand': 8, 'static': 0, 'short': 95, 'kept': 148} | 952 MB | 0.22 sent/s
+  191/397 sent | kept 154 | dropped {'no_hand': 8, 'static': 0, 'short': 102, 'kept': 154} | 997 MB | 0.22 sent/s
+  201/397 sent | kept 161 | dropped {'no_hand': 8, 'static': 0, 'short': 107, 'kept': 161} | 1044 MB | 0.21 sent/s
+  211/397 sent | kept 170 | dropped {'no_hand': 8, 'static': 0, 'short': 112, 'kept': 170} | 1089 MB | 0.21 sent/s
+  221/397 sent | kept 178 | dropped {'no_hand': 8, 'static': 0, 'short': 123, 'kept': 178} | 1141 MB | 0.21 sent/s
+  231/397 sent | kept 187 | dropped {'no_hand': 8, 'static': 0, 'short': 127, 'kept': 187} | 1199 MB | 0.20 sent/s
+  241/397 sent | kept 194 | dropped {'no_hand': 8, 'static': 0, 'short': 130, 'kept': 194} | 1248 MB | 0.20 sent/s
+  251/397 sent | kept 203 | dropped {'no_hand': 8, 'static': 0, 'short': 133, 'kept': 203} | 1293 MB | 0.20 sent/s
+  261/397 sent | kept 209 | dropped {'no_hand': 8, 'static': 0, 'short': 140, 'kept': 209} | 1340 MB | 0.20 sent/s
+  271/397 sent | kept 217 | dropped {'no_hand': 10, 'static': 0, 'short': 144, 'kept': 217} | 1381 MB | 0.21 sent/s
+  281/397 sent | kept 222 | dropped {'no_hand': 12, 'static': 0, 'short': 150, 'kept': 222} | 1429 MB | 0.21 sent/s
+  291/397 sent | kept 225 | dropped {'no_hand': 12, 'static': 0, 'short': 157, 'kept': 225} | 1473 MB | 0.21 sent/s
+  301/397 sent | kept 232 | dropped {'no_hand': 12, 'static': 0, 'short': 164, 'kept': 232} | 1521 MB | 0.21 sent/s
+  311/397 sent | kept 240 | dropped {'no_hand': 13, 'static': 0, 'short': 171, 'kept': 240} | 1579 MB | 0.21 sent/s
+  321/397 sent | kept 250 | dropped {'no_hand': 13, 'static': 0, 'short': 176, 'kept': 250} | 1624 MB | 0.21 sent/s
+  331/397 sent | kept 258 | dropped {'no_hand': 13, 'static': 0, 'short': 179, 'kept': 258} | 1677 MB | 0.22 sent/s
+  341/397 sent | kept 267 | dropped {'no_hand': 13, 'static': 0, 'short': 187, 'kept': 267} | 1733 MB | 0.22 sent/s
+  351/397 sent | kept 276 | dropped {'no_hand': 13, 'static': 0, 'short': 193, 'kept': 276} | 1785 MB | 0.22 sent/s
+  361/397 sent | kept 288 | dropped {'no_hand': 13, 'static': 0, 'short': 197, 'kept': 288} | 1837 MB | 0.22 sent/s
+  371/397 sent | kept 298 | dropped {'no_hand': 14, 'static': 0, 'short': 200, 'kept': 298} | 1894 MB | 0.22 sent/s
+  381/397 sent | kept 310 | dropped {'no_hand': 17, 'static': 0, 'short': 203, 'kept': 310} | 1949 MB | 0.22 sent/s
+  391/397 sent | kept 321 | dropped {'no_hand': 17, 'static': 0, 'short': 209, 'kept': 321} | 2003 MB | 0.22 sent/s
+
+Extraction done: 596 clips total | 2032 MB streamed | 1800s | last-stats {'no_hand': 17, 'static': 0, 'short': 214, 'kept': 324}
+  RAIN       66
+  SUN        60
+  CLOUD      65
+  SNOW       83
+  STORM      93
+  WIND       50
+  WEATHER    52
+asserts ok: (596, 30, 144)
+Signer-Independent (Train: ['Signer01', 'Signer04', 'Signer07', 'Signer08', 'Signer09'], Val: ['Signer05'], Test: ['Signer03'])
+Train=425 Val=126 Test=45
+model input dim: 288
+Trainable parameters: 635,144
+train counts: {'RAIN': 48, 'SUN': 50, 'CLOUD': 52, 'SNOW': 48, 'STORM': 67, 'WIND': 35, 'WEATHER': 37}
+class weights: {'RAIN': 0.38999998569488525, 'SUN': 0.3700000047683716, 'CLOUD': 0.36000001430511475, 'SNOW': 0.38999998569488525, 'STORM': 0.2800000011920929, 'WIND': 0.5299999713897705, 'WEATHER': 0.5}
+Traceback (most recent call last):
+  File "D:\kj somaiya\DGSenseDemo\DGSense\notebooks\_notebook_as_script.py", line 590, in <module>
+    for epoch in range(1, CONFIG["max_epochs"] + 1):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py", line 1400, in forward
+    return F.cross_entropy(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\functional.py", line 3561, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: weight tensor should be defined either for all 7 classes or no classes but got weight tensor of shape: [14]
+Exception ignored in: <function HandLandmarker.__del__ at 0x0000023D826A9E40>
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\vision\hand_landmarker.py", line 612, in __del__
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\vision\hand_landmarker.py", line 588, in close
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\core\serial_dispatcher.py", line 74, in shutdown_aware_handler
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python312\Lib\site-packages\mediapipe\tasks\python\core\mediapipe_c_utils.py", line 126, in dispatcher_wrapper
+TypeError: 'NoneType' object is not callable

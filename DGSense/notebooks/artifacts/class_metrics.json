@@ -1,0 +1,57 @@
+{
+  "BLOW": {
+    "precision": 0.45,
+    "recall": 0.9,
+    "f1-score": 0.6,
+    "support": 10.0
+  },
+  "COME": {
+    "precision": 0.2857142857142857,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3076923076923077,
+    "support": 6.0
+  },
+  "NORTH": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7.0
+  },
+  "SOUTH": {
+    "precision": 0.4,
+    "recall": 0.6153846153846154,
+    "f1-score": 0.48484848484848486,
+    "support": 13.0
+  },
+  "EAST": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13.0
+  },
+  "TOMORROW": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727273,
+    "support": 5.0
+  },
+  "TODAY": {
+    "precision": 0.4,
+    "recall": 0.25,
+    "f1-score": 0.3076923076923077,
+    "support": 8.0
+  },
+  "accuracy": 0.4032258064516129,
+  "macro avg": {
+    "precision": 0.314625850340136,
+    "recall": 0.41410256410256413,
+    "f1-score": 0.3467865467865468,
+    "support": 62.0
+  },
+  "weighted avg": {
+    "precision": 0.2894777265745007,
+    "recall": 0.4032258064516129,
+    "f1-score": 0.32656590721106843,
+    "support": 62.0
+  }
+}

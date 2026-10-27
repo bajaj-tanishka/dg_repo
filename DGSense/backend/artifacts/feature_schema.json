@@ -1,0 +1,33 @@
+{
+  "schema_version": "dgsense-v1",
+  "sequence_length": 30,
+  "feature_dim": 144,
+  "channels_per_landmark": 3,
+  "landmarks": {
+    "left_hand": {
+      "count": 21,
+      "start_idx": 0,
+      "end_idx": 63
+    },
+    "right_hand": {
+      "count": 21,
+      "start_idx": 63,
+      "end_idx": 126
+    },
+    "upper_pose": {
+      "count": 6,
+      "start_idx": 126,
+      "end_idx": 144
+    }
+  },
+  "coordinate_order": [
+    "x",
+    "y",
+    "z"
+  ],
+  "missing_landmark_fill": 0.0,
+  "normalization": "Wrist-origin hand-scale normalization; must match training preprocessing",
+  "model_input": "Raw 144 features plus 144 first-difference features when use_delta=true",
+  "model_input_dim": 288,
+  "use_delta": true
+}

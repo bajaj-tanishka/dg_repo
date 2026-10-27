@@ -1,0 +1,299 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "canonical_label": "BLOW",
+      "german_text": "Wehen",
+      "english_text": "Blowing",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "WEHEN",
+      "description": "DGS weather sign 'WEHEN' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 1,
+      "canonical_label": "COME",
+      "german_text": "Kommen",
+      "english_text": "Coming",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "KOMMEN",
+      "description": "DGS weather sign 'KOMMEN' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 2,
+      "canonical_label": "NORTH",
+      "german_text": "Nord",
+      "english_text": "North",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "NORD",
+      "description": "DGS weather sign 'NORD' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 3,
+      "canonical_label": "SOUTH",
+      "german_text": "Süd",
+      "english_text": "South",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "SUED",
+      "description": "DGS weather sign 'SUED' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 4,
+      "canonical_label": "EAST",
+      "german_text": "Ost",
+      "english_text": "East",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "OST",
+      "description": "DGS weather sign 'OST' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 5,
+      "canonical_label": "TOMORROW",
+      "german_text": "Morgen",
+      "english_text": "Tomorrow",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "MORGEN",
+      "description": "DGS weather sign 'MORGEN' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "id": 6,
+      "canonical_label": "TODAY",
+      "german_text": "Heute",
+      "english_text": "Today",
+      "is_model_supported": true,
+      "is_dictionary_only": false,
+      "gloss": "HEUTE",
+      "description": "DGS weather sign 'HEUTE' from RWTH-PHOENIX-Weather 2014T."
+    },
+    {
+      "canonical_label": "HELLO",
+      "german_text": "Hallo",
+      "english_text": "Hello",
+      "id": 7,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "GOOD_MORNING",
+      "german_text": "Guten Morgen",
+      "english_text": "Good morning",
+      "id": 8,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "GOOD_DAY",
+      "german_text": "Guten Tag",
+      "english_text": "Good day",
+      "id": 9,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "GOOD_EVENING",
+      "german_text": "Guten Abend",
+      "english_text": "Good evening",
+      "id": 10,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "BYE",
+      "german_text": "Tschüss",
+      "english_text": "Bye",
+      "id": 11,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "GOODBYE",
+      "german_text": "Auf Wiedersehen",
+      "english_text": "Goodbye",
+      "id": 12,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "THANK_YOU",
+      "german_text": "Danke",
+      "english_text": "Thank you",
+      "id": 13,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "THANK_YOU_VERY_MUCH",
+      "german_text": "Vielen Dank",
+      "english_text": "Thank you very much",
+      "id": 14,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "PLEASE",
+      "german_text": "Bitte",
+      "english_text": "Please",
+      "id": 15,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "SORRY",
+      "german_text": "Entschuldigung",
+      "english_text": "Sorry",
+      "id": 16,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "YES",
+      "german_text": "Ja",
+      "english_text": "Yes",
+      "id": 17,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "NO",
+      "german_text": "Nein",
+      "english_text": "No",
+      "id": 18,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "HELP",
+      "german_text": "Hilfe",
+      "english_text": "Help",
+      "id": 19,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "STOP",
+      "german_text": "Stopp",
+      "english_text": "Stop",
+      "id": 20,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "HOW_ARE_YOU",
+      "german_text": "Wie geht es dir?",
+      "english_text": "How are you?",
+      "id": 21,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "NOT_UNDERSTAND",
+      "german_text": "Ich verstehe nicht",
+      "english_text": "I don't understand",
+      "id": 22,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "WATER",
+      "german_text": "Wasser",
+      "english_text": "Water",
+      "id": 23,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "NAME",
+      "german_text": "Ich heiße ...",
+      "english_text": "My name is ...",
+      "id": 24,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "WHERE_TOILET",
+      "german_text": "Wo ist die Toilette?",
+      "english_text": "Where is the toilet?",
+      "id": 25,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "COME_HERE",
+      "german_text": "Komm her",
+      "english_text": "Come here",
+      "id": 26,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "LETS_GO",
+      "german_text": "Lass uns gehen",
+      "english_text": "Let's go",
+      "id": 27,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "LETS_LOOK",
+      "german_text": "Lass uns schauen",
+      "english_text": "Let's have a look",
+      "id": 28,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "WAIT_PLEASE",
+      "german_text": "Warte bitte",
+      "english_text": "Please wait",
+      "id": 29,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "NEED_HELP",
+      "german_text": "Ich brauche Hilfe",
+      "english_text": "I need help",
+      "id": 30,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    },
+    {
+      "canonical_label": "CAN_HELP",
+      "german_text": "Kannst du mir helfen?",
+      "english_text": "Can you help me?",
+      "id": 31,
+      "is_model_supported": false,
+      "is_dictionary_only": true,
+      "description": "Everyday DGS vocabulary - dictionary reference (record via Sign Recorder to enable recognition)."
+    }
+  ]
+}
